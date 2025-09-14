@@ -32,23 +32,19 @@ namespace Program
                 // For testing
                 //Console.Write("You chose option: " + choice);
 
-                if (choice == 1)
-                {
+                if (choice == 1) {
                     //Console.WriteLine("Choice is 1");
                     showBalance(balance);
                 }
-                else if (choice == 2)
-                {
+                else if (choice == 2) {
                     //Console.WriteLine("Choice is 2");
                     balance = balance + deposit();
                 }
-                else if (choice == 3)
-                {
+                else if (choice == 3) {
                     //Console.WriteLine("Choice is 3");
                     balance = balance - withdraw(balance);
                 }
-                else
-                {
+                else {
                     Console.WriteLine("Good bye!\n");
                     isRunning = false;
                 }
