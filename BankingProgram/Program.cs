@@ -35,9 +35,12 @@ namespace Program
                 else if (choice == 3) {
                     balance = balance - withdraw(balance);
                 }
-                else {
+                else if (choice == 4){
                     Console.WriteLine("Good bye!\n");
                     isRunning = false;
+                }
+                else {
+                    Console.WriteLine("Invalid Choice.\n");
                 }
             }
 
